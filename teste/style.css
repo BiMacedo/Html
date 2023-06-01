@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.logo{
+  border: 1px solid blue;
+  padding: 25px;
+  background-color: blue;
+  
+}
+
+.logo img{
+  width: 150px;
+  position: absolute;
+ 
+}
+ ul {
+
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end; 
+ margin: 12px;
+ 
+  
+}
+
+ ul li {
+  display: inline;
+  margin-right: 10px;
+  font-style: geologica;
+  color: blue;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2px;
+  font-family: 'Geologica', sans-serif;
+  
+
+}
+
+.caixa1{
+  border: solid 2px blue;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  margin-bottom: 75px;
+  background-color: blue;
+  padding: 30px;
+  border-radius: 20px;
+  font-family: 'Geologica', sans-serif;
+  color: white;
+  font-size: 25px;
+ 
+}
+
+
+.car{
+ justify-content: center;
+  display: flex;
+  border: 2px solid blue;
+  padding: 15px;
+  position: relative;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.Carros{
+  border: 2px solid blue;
+  /*margin-right: 920px;*/
+ /* margin-left: 50px;*/
+  border-radius: 20px;
+  padding: 35px;
+  margin-right: 10px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+
+  
+}
+.Carros img{
+  margin-right: 50px;
+  display: inline-block;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+h6{
+  text-align: start;
+  color: blue;
+  font-family: 'Geologica', sans-serif;
+  font-size: 25px
+}
+
+.carro2{
+  border: solid 2px blue;
+  margin: 50px;
+ 
+  border-radius: 20px;
+  padding: 50 px;
+  justify-content: flex-end;
+  text-align: end;
+}
